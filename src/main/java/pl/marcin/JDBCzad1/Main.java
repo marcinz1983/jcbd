@@ -30,7 +30,7 @@ public class Main {
 
         moviesDAO.updateMovie(2,moviesDB);
 
-        System.out.println("****************\n");
+        System.out.println("******************\n");
 
         moviesDAO.getAll().forEach(System.out::println);
 
